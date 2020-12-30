@@ -1,0 +1,8 @@
+springdoc:
+  pre-loading-enabled: true
+  swagger-ui:
+    tags-sorter: alpha
+  packages-to-scan:
+    - com.company.example
+  api-docs.path: /openapi/v3/api-docs
+  swagger-ui.path: /openapi/swagger-ui.html
